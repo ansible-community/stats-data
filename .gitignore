@@ -1,3 +1,6 @@
 .env
 praw.ini
 *.csv
+.Rproj.user
+.Rhistory
+.venv

@@ -17,6 +17,15 @@ This repo contains scripts to scrape various community data points.
 | stackexchange | None |
 | twitter | Valid account |
 | youtube | Valid API Key |
+
+### Setup
+
+```
+python3 -m venv ./.venv
+source .venv/bin/activate  # (or activate.fish, activate.zsh, etc)
+pip install -r requirements.txt
+```
+
 ### Configuration
 
 Example `.env`
