@@ -12,10 +12,10 @@ This repo contains scripts to scrape various community data points.
 | --- | --- |
 | discord | None |
 | github | None |
-| google | Custom Search Engine |
 | reddit | Registered reddit bot |
 | stackexchange | None |
 | twitter | Valid account |
+| trends | None |
 | youtube | Valid API Key |
 
 ### Setup
