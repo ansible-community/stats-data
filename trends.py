@@ -1,6 +1,5 @@
 import csv
 
-from apiclient.discovery import build
 from datetime import datetime
 from dotenv import dotenv_values
 from pytrends.request import TrendReq
