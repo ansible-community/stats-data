@@ -9,7 +9,7 @@ from pandas import concat
 config = dotenv_values(".env")
 
 GOOGLE_CSV_FILE = config.get("GOOGLE_CSV_FILE") or "google.csv"
-TREND_CSV_FILE  = "trend_" + (config.get("GOOGLE_CSV_FILE") or "google.csv")
+TREND_CSV_FILE  = f"trend_{GOOGLE_CSV_FILE}"
 
 # connect to google 
 pytrends = TrendReq(hl='en-GB', tz=0) 
